@@ -35,3 +35,25 @@ body {
 .resume-version {
   /* styles common to both resumes */
 }
+
+/* ... other styles ... */
+#phone-container {
+  position: relative; /* For positioning the eye icon */
+}
+
+#reveal-phone {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  opacity: 0.5; /* Slightly transparent by default */
+}
+
+#reveal-phone:hover {
+  opacity: 1; /* Fully visible on hover */
+}
+
+/* Optional: Style for blurred phone number */
+#phone-display.blurred {
+  filter: blur(5px);
+}

@@ -1,0 +1,42 @@
+{
+  "contact": {
+    "name": "Manisha Malhar Rao Deshpande",
+    "location": "Tempe, AZ",
+    "phone": "(602) 768-7074",
+    "email": "mdeshp10@asu.edu",
+    "linkedin": "https://www.linkedin.com/in/manisha-deshpande/"
+  },
+  "education": [
+    {
+      "degree": "Master of Science in Software Engineering",
+      "school": "Arizona State University, Arizona",
+      "graduation": "May 2024",
+      "gpa": "3.85"
+    },
+    {
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "school": "PES University, Bangalore, India",
+      "graduation": "July 2019",
+      "gpa": "3.68"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Development Engineer II",
+      "company": "Akamai Technologies India Pvt Ltd, Bangalore",
+      "period": "July 2021 - July 2022",
+      "achievements": [
+        "Architected RESTful APIs and database management...",
+        "Led two successful code releases...",
+        "..."
+      ]
+    }
+  ],
+  "skills": {
+    "programming": ["Java", "Python", "JavaScript", "C++", "HTML", "CSS"],
+    "databases": ["MySQL", "PostgreSQL"],
+    "cloud": ["AWS", "Azure"],
+    "webdev": ["React", "Angular"],
+    "other": ["Version Control Systems (Git)" ]
+  }
+}
