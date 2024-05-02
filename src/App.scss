@@ -376,6 +376,41 @@ header h1 {
 	}
 }
 
+#events {
+	padding-bottom: 5%;
+}
+
+.events-item {
+	max-width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.events .events-item .events-item-caption {
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+	opacity: 0;
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+.events .events-item .events-item-caption:hover {
+	opacity: 1;
+}
+
+.events .events-item .events-item-caption .events-item-caption-content {
+	font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+	.events .closeButtonResponsive {
+		display: block;
+	}
+	.events .portfolio-item {
+		margin-bottom: 30px;
+	}
+}
+
 #skills {
 	background: #1F1F1F;
 	min-height: 200px;

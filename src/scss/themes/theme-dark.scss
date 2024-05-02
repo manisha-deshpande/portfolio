@@ -66,6 +66,19 @@ body[data-theme="dark"] {
       }
    }
 
+   #events {
+      background: #5b5b5b;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #6d6d6d;
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
    #resume {
       filter: brightness(80%);
       background: #5b5b5b;

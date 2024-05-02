@@ -48,7 +48,7 @@ class Events extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="events">
         <div className="col-md-12">
           <h1 className="section-title" style={{ color: "black" }}>
             <span>{sectionName}</span>
