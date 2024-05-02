@@ -7,7 +7,8 @@
         "projects": "Projects",
         "skills": "Skills",
         "experience": "Experience",
-        "activities": "Other Roles"
+        "activities": "Other Roles",
+        "events": "Notable Events"
       }
     },
     "projects": [
@@ -55,7 +56,7 @@
           "images/portfolio/snakelang/p3.png",
           "images/portfolio/snakelang/p4.png"
         ],
-        "url": "",
+        "url": "https://github.com/manisha-deshpande/SAANP-Programming-Lang",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -221,6 +222,111 @@
           "Sensors",
           "Research",
           "Patent-awarded"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "title": "ASU Innovation Showcase - Engineering",
+        "startDate": "Apr 26, 2024",
+        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "images": [
+          "images/portfolio/innovationshowcase/p1.jpg",
+          "images/portfolio/innovationshowcase/p2.png",
+          "images/portfolio/innovationshowcase/p3.jpeg",
+          "images/portfolio/innovationshowcase/p4.jpeg",
+          "images/portfolio/innovationshowcase/p5.jpeg"
+        ],
+        "url": "https://poly.engineering.asu.edu/innovation-showcase/software-engineering/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "Agile (Scrum)"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Github (Source Version control)"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "Requirement Elicitation"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Documentation"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "App Development"
+          }
+        ]
+      },
+      {
+        "title": "ASU Open Door - GDSC Tabling",
+        "startDate": "Feb 15, 2024",
+        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "images": [
+          "images/portfolio/opendoor/p1.gif",
+          "images/portfolio/opendoor/p2.jpeg",
+          "images/portfolio/opendoor/p3.jpeg"
+        ],
+        "url": "https://opendoor.asu.edu/polytechnic/exploring-tech-world-327",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "Scratch Coding"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Google Chrome"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "Google Bard (Gemini)"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Presentation"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Interaction"
+          }
+        ]
+      },
+      {
+        "title": "Intro to Machine Learning - GDSC Workshop",
+        "startDate": "Nov 21, 2023",
+        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "images": [
+          "images/portfolio/gdscworkshop/p1.jpg",
+          "images/portfolio/gdscworkshop/p2.jpg",
+          "images/portfolio/gdscworkshop/p3.jpg",
+          "images/portfolio/gdscworkshop/p4.jpg",
+          "images/portfolio/gdscworkshop/p5.jpg"
+        ],
+        "url": "https://gdsc.community.dev/events/details/developer-student-clubs-arizona-state-university-the-polytechnic-school-mesa-az-presents-introduction-to-machine-learning-with-tensorflow/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "Tensorflow"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Event Management"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "Workshop"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "Collaboration"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Python"
+          }
         ]
       }
     ]
