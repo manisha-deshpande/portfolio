@@ -5,12 +5,26 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import ExperienceDetailsModal from "./ExperienceDetailsModal";
 
 class Experience extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      deps: {},
+      workDetailsModalShow: false,
+    };
+  }
+
   render() {
+    let workDetailsModalShow = (data) => {
+      this.setState({ workDetailsModalShow: true, deps: data });
+    };
+
+    let workDetailsModalClose = () => this.setState({ workDetailsModalShow: false });
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
+      var works = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
 
@@ -28,6 +42,7 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -46,7 +61,9 @@ class Experience extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left" , cursor: "pointer"}}
+
+              onClick={() => workDetailsModalShow(work)}
             >
               {work.title}
             </h3>
@@ -75,7 +92,7 @@ class Experience extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-            {work}
+            {works}
             <VerticalTimelineElement
               iconStyle={{
                 background: "#AE944F",
@@ -87,6 +104,11 @@ class Experience extends Component {
               }
             />
           </VerticalTimeline>
+          <ExperienceDetailsModal
+            show={this.state.workDetailsModalShow}
+            onHide={workDetailsModalClose}
+            data={this.state.deps}
+          />
         </div>
       </section>
     );

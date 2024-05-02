@@ -13,7 +13,7 @@
   "projects": [
     {
       "title": "Game Night Recommender",
-      "startDate": "February 2024",
+      "startDate": "Apr 2024",
       "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
       "images": [
         "images/portfolio/gnr/p1.png",
@@ -47,7 +47,7 @@
     },
     {
       "title": "Snake Programming Language",
-      "startDate": "February 2023",
+      "startDate": "Apr 2023",
       "description": "Designed a novel Python-inspired language with a tokenizer, evaluator, parser, and semantic analyzer, ensuring cross-platform compatibility on MacOS and Windows.",
       "images": [
         "images/portfolio/snakelang/p1.png",
@@ -69,7 +69,7 @@
     },
     {
       "title": "Fetal Monitoring",
-      "startDate": "May 2017",
+      "startDate": "Jun 2019",
       "description": "Engineered a patented cost-effective hardware prototype with audio processing for third-trimester fetal monitoring, achieving a 98% cost reduction compared to traditional ultrasound.",
       "images": [
         "images/portfolio/fetalmonitor/p1.png",
@@ -141,7 +141,8 @@
         "Angular",
         "OracleDB",
         "REST API"
-      ]
+      ],
+      "description" : ""
     },
     {
       "company": "Akamai Technologies",
@@ -157,7 +158,9 @@
         "Angular",
         "OracleDB",
         "REST API"
-      ]
+      ],
+      "description" : "",
+      "achievements" : []
     },
     {
       "company": "Akamai Technologies",
@@ -173,7 +176,9 @@
         "Angular",
         "OracleDB",
         "REST API"
-      ]
+      ],
+      "description" : "",
+      "achievements" : []
     }
   ],
   "activities": [
@@ -196,7 +201,7 @@
     {
       "company": "Google Developer Student Club @Poly, ASU",
       "title": "Core Officer, Treasurer",
-      "years": "06.2017 - 06.2019",
+      "years": "08.2023 - 01.2024",
       "mainTech": [
         "Leadership",
         "Event Management"
@@ -239,11 +244,11 @@
       "url": "https://poly.engineering.asu.edu/innovation-showcase/software-engineering/",
       "technologies": [
         {
-          "class": "devicon-react-original",
+          "class": "devicon-css3-plain",
           "name": "Agile (Scrum)"
         },
         {
-          "class": "devicon-express-original",
+          "class": "devicon-css3-plain",
           "name": "Github (Source Version control)"
         },
         {
@@ -261,7 +266,7 @@
       ]
     },
     {
-      "title": "ASU Open Door - GDSC Tabling",
+      "title": "ASU Open Door - GDSC Spring Tabling",
       "startDate": "Feb 15, 2024",
       "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
       "images": [
