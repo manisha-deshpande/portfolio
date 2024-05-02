@@ -1,6 +1,6 @@
 {
-    "basic_info": {
-      "name": "Manisha Deshpande",
+  "basic_info": {
+    "name": "Manisha Deshpande",
       "titles": [ "Software Engineer", "Java Developer", "UI/UX Enthusiast", "Software Grad" ],
       "social": [
         {
@@ -17,7 +17,40 @@
       "image": "myProfile.jpg"
     },
     "skills": {
-      "icons": [
+    "icons": {
+      "Backend": [
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "85"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain",
+          "level": "80"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "75"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "70"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "75"
+        }
+      ],
+      "Frontend": [
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
@@ -31,7 +64,7 @@
         {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
-          "level": "80"
+          "level": "90"
         },
         {
           "name": "TypeScript",
@@ -41,28 +74,14 @@
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
           "level": "85"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "React",
+          "class": "devicon-react-original",
+          "level": "80"
         }
       ]
     }
   }
+}

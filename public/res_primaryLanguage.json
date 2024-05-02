@@ -6,47 +6,38 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "activities": "Other Roles"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Game Night Recommender",
+        "startDate": "February 2024",
+        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/gnr/p1.png",
+          "images/portfolio/gnr/p2.png",
+          "images/portfolio/gnr/p3.png",
+          "images/portfolio/gnr/p4.png"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
             "class": "devicon-react-original",
             "name": "React"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
@@ -55,63 +46,181 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Snake Programming Language",
+        "startDate": "February 2023",
+        "description": "Designed a novel Python-inspired language with a tokenizer, evaluator, parser, and semantic analyzer, ensuring cross-platform compatibility on MacOS and Windows.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/snakelang/p1.png",
+          "images/portfolio/snakelang/p2.png",
+          "images/portfolio/snakelang/p3.png",
+          "images/portfolio/snakelang/p4.png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-bash-plain",
+            "name": "Bash Scripting"
           }
+        ]
+      },
+      {
+        "title": "Fetal Monitoring",
+        "startDate": "May 2017",
+        "description": "Engineered a patented cost-effective hardware prototype with audio processing for third-trimester fetal monitoring, achieving a 98% cost reduction compared to traditional ultrasound.",
+        "images": [
+          "images/portfolio/fetalmonitor/p1.png",
+          "images/portfolio/fetalmonitor/p2.png",
+          "images/portfolio/fetalmonitor/p3.png",
+          "images/portfolio/fetalmonitor/p4.png",
+          "images/portfolio/fetalmonitor/p5.png",
+          "images/portfolio/fetalmonitor/p6.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-arduino-plain",
+            "name": "Arduino"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "company": "Arizona State University",
+        "title": "Master of Science, Software Engineering",
+        "years": "07.2022 - 05.2024",
+        "mainTech": [
+          "Java",
+          "TypeScript"
+        ],
+        "technologies": [
+          "HTML/CSS",
+          "Spring Boot",
+          "Angular",
+          "OracleDB",
+          "REST API"
+        ]
+      },
+      {
+        "company": "PES University",
+        "title": "Bachelor of Technology, Computer Science & Engineering",
+        "years": "07.2015 - 07.2019",
+        "mainTech": [
+          "Java",
+          "TypeScript"
+        ],
+        "technologies": [
+          "HTML/CSS",
+          "Spring Boot",
+          "Angular",
+          "OracleDB",
+          "REST API"
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Akamai Technologies",
+        "title": "Software Engineer II",
+        "years": "07.2021 - 07.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "Java",
+          "TypeScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "HTML/CSS",
+          "Spring Boot",
+          "Angular",
+          "OracleDB",
+          "REST API"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Akamai Technologies",
+        "title": "Software Engineer I",
+        "years": "07.2019 - 06.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Java",
+          "TypeScript"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "HTML/CSS",
+          "Spring Boot",
+          "Angular",
+          "OracleDB",
+          "REST API"
+        ]
+      },
+      {
+        "company": "Akamai Technologies",
+        "title": "Software Intern",
+        "years": "01.2019 - 04.2019",
+        "mainTech": [
+          "Java",
+          "TypeScript"
+        ],
+        "technologies": [
+          "HTML/CSS",
+          "Spring Boot",
+          "Angular",
+          "OracleDB",
+          "REST API"
+        ]
+      }
+    ],
+    "activities": [
+      {
+        "company": "Arizona State University",
+        "title": "CSE180 - Course Grader",
+        "years": "01.2024 - 04.2024",
+        "mainTech": [
+          "HTML",
+          "Microsoft Word",
+          "Microsoft Excel"
+        ],
+        "technologies": [
+          "Troubleshooting",
+          "Discussion Forums",
+          "Assignment Grading",
+          "Student assistance"
+        ]
+      },
+      {
+        "company": "Google Developer Student Club @Poly, ASU",
+        "title": "Core Officer, Treasurer",
+        "years": "06.2017 - 06.2019",
+        "mainTech": [
+          "Leadership",
+          "Event Management"
+        ],
+        "technologies": [
+          "Workshops",
+          "Recruitment",
+          "Google Tech",
+          "Tensorflow"
+        ]
+      },
+      {
+        "company": "Cloud Computing & Big Data center, PES University",
+        "title": "Engineering Research Intern",
+        "years": "06.2017 - 06.2019",
+        "mainTech": [
+          "Python",
+          "Arduino"
+        ],
+        "technologies": [
+          "Audio Processing",
+          "Sensors",
+          "Research",
+          "Patent-awarded"
         ]
       }
     ]
