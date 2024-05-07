@@ -7,6 +7,7 @@
       "projects": "Projects",
       "skills": "Skills",
       "experience": "अनुभव",
+      "education": "शिक्षा",
       "activities": "Other Roles"
     }
   },
@@ -107,7 +108,8 @@
         "Angular",
         "OracleDB",
         "REST API"
-      ]
+      ],
+      "logo_url": "images/logos/asu.png"
     },
     {
       "company": "PES University",
@@ -123,7 +125,8 @@
         "Angular",
         "OracleDB",
         "REST API"
-      ]
+      ],
+      "logo_url": "images/logos/pesu.png"
     }
   ],
   "experience": [
@@ -142,6 +145,7 @@
         "OracleDB",
         "REST API"
       ],
+      "logo_url": "images/logos/akamai.png",
       "description" : ""
     },
     {
@@ -159,6 +163,7 @@
         "OracleDB",
         "REST API"
       ],
+      "logo_url": "images/logos/akamai.png",
       "description" : "",
       "achievements" : []
     },
@@ -177,6 +182,7 @@
         "OracleDB",
         "REST API"
       ],
+      "logo_url" : "images/logos/akamai.png",
       "description" : "",
       "achievements" : []
     }
@@ -196,7 +202,8 @@
         "Discussion Forums",
         "Assignment Grading",
         "Student assistance"
-      ]
+      ],
+      "logo_url": "images/logos/asu.png"
     },
     {
       "company": "Google Developer Student Club @Poly, ASU",
@@ -211,7 +218,8 @@
         "Recruitment",
         "Google Tech",
         "Tensorflow"
-      ]
+      ],
+      "logo_url": "images/logos/gdsc.png"
     },
     {
       "company": "Cloud Computing & Big Data center, PES University",
@@ -226,7 +234,8 @@
         "Sensors",
         "Research",
         "Patent-awarded"
-      ]
+      ],
+      "logo_url": "images/logos/pesu.png"
     }
   ],
   "events": [

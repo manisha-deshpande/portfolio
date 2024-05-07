@@ -3,8 +3,10 @@ import { Icon } from "@iconify/react";
 import javaIcon from "@iconify/icons-logos/java";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import pythonIcon from "@iconify/icons-logos/python";
+import scrollToSection from "./NavBar.js"
 
 class About extends Component {
+
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -77,10 +79,17 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello} : </span>
                     <br />
                     <br />
-                    {about}
+                    <p>
+                      {about}
+                    </p>
+                    <br/>
+                    <br/>
+                    {/* <span style={{ cursor: "pointer", color: "blue" }} onClick={() => {scrollToSection("education")}}>
+                      Click here to know my academic qualifications
+                    </span> */}
                   </div>
                 </div>
               </div>

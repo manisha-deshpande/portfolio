@@ -63,7 +63,7 @@ class Activities extends Component {
     }
 
     return (
-      <section id="resume1" className="pb-5">
+      <section id="activities" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>

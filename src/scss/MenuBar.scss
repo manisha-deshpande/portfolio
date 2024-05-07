@@ -1,0 +1,47 @@
+.navbar {
+  position: fixed !important;
+  top: 50%;
+  right: 20px !important;
+  transform: translateY(-50%);
+  z-index: 1000;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: right;
+}
+
+.navbar-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-icon:hover,
+.navbar-icon.hovered {
+  background-color: #555;
+}
+
+.hover-text {
+  position: absolute;
+  right: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-icon:hover .hover-text,
+.navbar-icon.hovered .hover-text {
+  opacity: 1;
+}

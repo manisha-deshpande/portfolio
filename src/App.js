@@ -5,10 +5,12 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Activities from "./components/Activities";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Events from "./components/Events";
+import NavBar from './components/NavBar';
 
 class App extends Component {
 
@@ -82,6 +84,16 @@ class App extends Component {
   }
 
   render() {
+    // Always update along with basic.section_names in res json files
+    const sections = [
+      { id: 'about', name: 'About', icon: 'user' },
+      { id: 'portfolio', name: 'Projects', icon: 'briefcase' },
+      { id: 'skills', name: 'Skills', icon: 'code' },
+      { id: 'resume', name: 'Experience', icon: 'clock' },
+      { id: 'education', name: 'Education', icon: 'graduation-cap' },
+      { id: 'events', name: 'Events', icon: 'calendar-check' },
+      { id: 'activities', name: 'Other Roles', icon: 'id-badge' },
+    ];
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
@@ -119,6 +131,7 @@ class App extends Component {
             ></span>
           </div>
         </div>
+        <NavBar sections={sections} />
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
@@ -135,6 +148,10 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <Education
+          educationDegrees={this.state.resumeData.education}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        />
         <Events
           resumeProjects={this.state.resumeData.events}
           resumeBasicInfo={this.state.resumeData.basic_info}
@@ -143,6 +160,10 @@ class App extends Component {
           resumeExperience={this.state.resumeData.activities}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        {/* <Education
+          educationDegrees={this.state.resumeData.education}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        /> */}
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
