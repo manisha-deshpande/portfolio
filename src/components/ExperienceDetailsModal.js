@@ -3,10 +3,10 @@ import { Modal } from "react-bootstrap";
 
 class ExperienceDetailsModal extends Component {
   render() {
-    let title = "", company = "", years = "", description = "", achievements = [];
+    let title = "", company = "", years = "", description = "", highlights = [], logo_url="";
 
     if (this.props.data) {
-      ({ title, company, years, description, achievements } = this.props.data);
+      ({ title, company, years, description, highlights, logo_url } = this.props.data);
     }
 
     return (
@@ -21,18 +21,29 @@ class ExperienceDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <h3 style={{ padding: "5px 5px 0 5px" }}>{title} at {company}</h3>
-            <p className="modal-description">{years}</p>
-            <p className="modal-description">{description}</p>
-            {achievements && <div className="col-md-12 text-center">
-              <h5>Highlights:</h5>
-              <ul>
-                {achievements.map((achievement, index) => (
-                  <li key={index}>{achievement}</li>
-                ))}
-              </ul>
-            </div>}
+        <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+            <div className="experience-header">
+              <img src={logo_url} alt={company} className="company-logo" height="50" width="50"/>
+              <h3 className="experience-title">{title}</h3>
+              <h4 className="experience-company">{company}</h4>
+              <p className="experience-duration">{years}</p>
+            </div>
+            <div className="experience-description">
+              <p>{description}</p>
+            </div>
+            {highlights && highlights.length > 0 && (
+              <div className="experience-highlights">
+                <h5>Highlights:</h5>
+                <ul>
+                  {highlights.map((highlight, index) => (
+                    <li key={index}>
+                      <span className="highlight-date">{highlight.date}:</span>{" "}
+                      {highlight.description}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </Modal>

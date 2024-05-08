@@ -16,14 +16,14 @@
       {
         "title": "Game Night Recommender",
         "startDate": "Apr 2024",
-        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "description": "Blending my love for gaming with my technical skills, I developed a personalized game recommendation system that leverages social connections to enhance group play experiences. This project is a testament to my ability to integrate complex APIs and deliver tailored solutions.",
         "images": [
           "images/portfolio/gnr/p1.png",
           "images/portfolio/gnr/p2.png",
           "images/portfolio/gnr/p3.png",
           "images/portfolio/gnr/p4.png"
         ],
-        "url": "",
+        "url": "https://github.com/diyasanghvii/Game-Night-Recommendation-System",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -70,9 +70,9 @@
         ]
       },
       {
-        "title": "Fetal Monitoring",
+        "title": "Fetal Monitoring - Patent",
         "startDate": "Jun 2019",
-        "description": "Engineered a patented cost-effective hardware prototype with audio processing for third-trimester fetal monitoring, achieving a 98% cost reduction compared to traditional ultrasound.",
+        "description": "Engineered a cost-effective hardware prototype with audio processing for third-trimester fetal monitoring, achieving a 98% cost reduction compared to traditional ultrasound.",
         "images": [
           "images/portfolio/fetalmonitor/p1.png",
           "images/portfolio/fetalmonitor/p2.png",
@@ -81,7 +81,7 @@
           "images/portfolio/fetalmonitor/p5.png",
           "images/portfolio/fetalmonitor/p6.png"
         ],
-        "url": "",
+        "url": "https://github.com/prtkmhn/Fetal-Heart-Rate-Analysis-System",
         "technologies": [
           {
             "class": "devicon-python-plain",
@@ -98,6 +98,7 @@
       {
         "company": "Arizona State University",
         "title": "Master of Science, Software Engineering",
+        "location": "Tempe, AZ, USA",
         "years": "07.2022 - 05.2024",
         "mainTech": [
           "Java",
@@ -110,11 +111,30 @@
           "OracleDB",
           "REST API"
         ],
-        "logo_url": "images/logos/asu.png"
+        "logo_url": "images/logos/asu.png",
+        "gpa": "3.87",
+        "gpaMax": "4.0",
+        "description": "Advanced my expertise in software engineering with a focus on practical and theoretical aspects of the software development life cycle, culminating in a transformative educational experience that honed my technical, collaborative and problem-solving skills.",
+        "relevantCourses": ["Adv. Data Structures & Algorithms", "Intro Human Computer Interaction", "Software Requirements & Specs", "Software Agility", "Software Verification, Validation & Testing", "Data Science for SE"],
+        "highlights": [
+          {
+            "date": "2024",
+            "description": "Selected for the Innovation Showcase by the Managing Director for displaying \"URGENCY & PERSISTENCE\" in my work contributions during Covid-19."
+          },
+          {
+            "date": "2024",
+            "description": "Supported student learning as a Grading Specialist and Online Facilitator for a CSE course by assessing assignments, engaging in discussion forums, troubleshooting software, and holding weekly office hours for personalized guidance."
+          },
+          {
+            "date": "2023",
+            "description": "Established a new chapter of GDSC (Google Developer Student Clubs) at the Polytechnic campus to engage students interested in Google technology and Software Development with workshops and projects."
+          }
+        ]
       },
       {
         "company": "PES University",
         "title": "Bachelor of Technology, Computer Science & Engineering",
+        "location": "Bengaluru, KA, IN",
         "years": "07.2015 - 07.2019",
         "mainTech": [
           "Java",
@@ -127,7 +147,25 @@
           "OracleDB",
           "REST API"
         ],
-        "logo_url": "images/logos/pesu.png"
+        "logo_url": "images/logos/pesu.png",
+        "gpa": "9.03",
+        "gpaMax": "10.0",
+        "description": "Where it all began — a rigorous program that instilled a deep understanding of computer science fundamentals, programming, and system design, setting a solid foundation for my career.",
+        "relevantCourses": [""],
+        "highlights": [
+          {
+            "date": "2017-2018",
+            "description": "Awarded the Prof. CNRRao Merit Seholarship for being in the top 20% performers in the CS Department."
+          },
+          {
+            "date": "2017-2018",
+            "description": "Awarded the Prof. CNRRao Merit Seholarship for being in the top 20% performers in the CS Department."
+          },
+          {
+            "date": "2018",
+            "description": "Won the runner up place at the Cisco Hackathon where we developed a winner predicter system for the Indian Premiere League Cricket tournaments."
+          }
+        ]
       }
     ],
     "experience": [
@@ -135,6 +173,8 @@
         "company": "Akamai Technologies",
         "title": "Software Engineer II",
         "years": "07.2021 - 07.2022",
+        "location": "Bengaluru, KA, IN",
+        "location_url": "",
         "mainTech": [
           "Java",
           "TypeScript"
@@ -147,7 +187,17 @@
           "REST API"
         ],
         "logo_url": "images/logos/akamai.png",
-        "description" : ""
+        "description" : "Led key initiatives such as API design and implementation, data migration, UI development, system transitions, API and process documentation, and on-boarding mentorship of new recruits, resulting in streamlined processes and increased operational efficiency.",
+        "highlights": [
+          {
+            "date": "2022",
+            "description": "Orchestrated 2 defect-free code releases through meticulous planning and execution, ensuring 100% on-time delivery and flawless production integration."
+          },
+          {
+            "date": "2021",
+            "description": "Mentored 3 new hires through personalized knowledge-transfer sessions, reducing onboarding time by 40%."
+          }
+        ]
       },
       {
         "company": "Akamai Technologies",
@@ -165,8 +215,13 @@
           "REST API"
         ],
         "logo_url": "images/logos/akamai.png",
-        "description" : "",
-        "achievements" : []
+        "description" : "Developed and implemented scalable solutions for complex software systems, utilizing agile methodologies and collaborating with cross-functional teams to meet project objectives.",
+        "highlights": [
+          {
+            "date": "2020",
+            "description": "Recognized by the Managing Director for displaying \"URGENCY & PERSISTENCE\" in my work contributions during Covid-19."
+          }
+        ]
       },
       {
         "company": "Akamai Technologies",
@@ -174,7 +229,7 @@
         "years": "01.2019 - 04.2019",
         "mainTech": [
           "Java",
-          "TypeScript"
+          "OracleSQL"
         ],
         "technologies": [
           "HTML/CSS",
@@ -184,8 +239,8 @@
           "REST API"
         ],
         "logo_url" : "images/logos/akamai.png",
-        "description" : "",
-        "achievements" : []
+        "description" : "Developed and documented features, APIs, SQL statements and user interfaces according to business specifications for product management and catalog systems.",
+        "highlights" : []
       }
     ],
     "activities": [
@@ -343,5 +398,8 @@
           }
         ]
       }
-    ]
+    ],
+    "skills" : {
+      "overview" : "With a toolbox filled with advanced programming languages and technologies such as Java, Python, Angular, and React, coupled with deep expertise in cloud computing and data science, I am equipped to tackle complex software challenges. My approach is always guided by the latest in agile practices, continuous integration, and robust testing methodologies to ensure excellence in every project."
+    }
   }

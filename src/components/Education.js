@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
 import ExperienceDetailsModal from "./ExperienceDetailsModal";
+import EducationDetailsModal from "./EducationDetailsModal";
 
 class Education extends Component {
   constructor(props) {
@@ -104,7 +105,7 @@ class Education extends Component {
               }
             />
           </VerticalTimeline>
-          <ExperienceDetailsModal
+          <EducationDetailsModal
             show={this.state.workDetailsModalShow}
             onHide={workDetailsModalClose}
             data={this.state.deps}
