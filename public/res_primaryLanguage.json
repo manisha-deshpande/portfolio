@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Manisha Deshpande. Software Engineering Grad with 3 yrs industry experience :) I love working with Java programming language and popular front-end frameworks like Angular & React. Thank you 💜",
+      "description_header": "👋 Hi, I'm Manisha",
+      "description": "I've just wrapped up my Master's in Software Engineering at Arizona State University, building on my Computer Science roots from PES University. My journey through academia and three enriching years at Akamai Technologies has sharpened my knack for crafting innovative software solutions that enhance user experiences and streamline operations. I'm passionate about turning complex challenges into seamless solutions, making technology work smarter and lives easier. Let's make something amazing together! 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -99,7 +99,7 @@
         "company": "Arizona State University",
         "title": "Master of Science, Software Engineering",
         "location": "Tempe, AZ, USA",
-        "years": "07.2022 - 05.2024",
+        "years": "Aug '22 - May '24",
         "mainTech": [
           "Java",
           "TypeScript"
@@ -115,11 +115,11 @@
         "gpa": "3.87",
         "gpaMax": "4.0",
         "description": "Advanced my expertise in software engineering with a focus on practical and theoretical aspects of the software development life cycle, culminating in a transformative educational experience that honed my technical, collaborative and problem-solving skills.",
-        "relevantCourses": ["Adv. Data Structures & Algorithms", "Intro Human Computer Interaction", "Software Requirements & Specs", "Software Agility", "Software Verification, Validation & Testing", "Data Science for SE"],
+        "relevantCourses": ["Adv. Data Structures & Algorithms", "Intro Human Computer Interaction", "Software Requirements & Specifications", "Software Agility", "Software Verification, Validation & Testing", "Language & Programming Paradigms", "Data Science for SE"],
         "highlights": [
           {
             "date": "2024",
-            "description": "Selected for the Innovation Showcase by the Managing Director for displaying \"URGENCY & PERSISTENCE\" in my work contributions during Covid-19."
+            "description": "Led the scrum-based development of a cloud-based SaaS solution from scratch to deployment on AWS, making it accessible to users over the internet. Game Night Recommender tool was nominated for the ASU Innovation Showcase event."
           },
           {
             "date": "2024",
@@ -135,7 +135,7 @@
         "company": "PES University",
         "title": "Bachelor of Technology, Computer Science & Engineering",
         "location": "Bengaluru, KA, IN",
-        "years": "07.2015 - 07.2019",
+        "years": "Aug '15 - Jul '19",
         "mainTech": [
           "Java",
           "TypeScript"
@@ -151,19 +151,19 @@
         "gpa": "9.03",
         "gpaMax": "10.0",
         "description": "Where it all began — a rigorous program that instilled a deep understanding of computer science fundamentals, programming, and system design, setting a solid foundation for my career.",
-        "relevantCourses": [""],
+        "relevantCourses": ["Data Structures","Design & Analysis of Algorithms","Natural Language Processing","Object Oriented Modeling & Design","Advanced ML","Advanced DBMS","Unix System Programming","Computer Networks", "Programming with C & Python"],
         "highlights": [
           {
             "date": "2017-2018",
-            "description": "Awarded the Prof. CNRRao Merit Seholarship for being in the top 20% performers in the CS Department."
+            "description": "Awarded the Prof. CNR Rao Merit Seholarship for claiming a spot in the top 20% performers in the CS Department."
           },
           {
-            "date": "2017-2018",
-            "description": "Awarded the Prof. CNRRao Merit Seholarship for being in the top 20% performers in the CS Department."
+            "date": "2016-2018",
+            "description": "Secured a patent for a low-cost portable fetal health monitoring device, developed with a team of 5 students, while serving as a Research Assistant at the Cloud Computing & Big Data Research Center on campus."
           },
           {
             "date": "2018",
-            "description": "Won the runner up place at the Cisco Hackathon where we developed a winner predicter system for the Indian Premiere League Cricket tournaments."
+            "description": "Won the runner up place at the Cisco Hackathon for ideating and prototyping a winner predicter system for the Indian Premiere League Cricket tournaments."
           }
         ]
       }
@@ -172,22 +172,21 @@
       {
         "company": "Akamai Technologies",
         "title": "Software Engineer II",
-        "years": "07.2021 - 07.2022",
+        "years": "Jul '21 - Jul '22",
         "location": "Bengaluru, KA, IN",
-        "location_url": "",
         "mainTech": [
           "Java",
-          "TypeScript"
+          "Angular"
         ],
         "technologies": [
-          "HTML/CSS",
-          "Spring Boot",
-          "Angular",
-          "OracleDB",
-          "REST API"
+          "API Design",
+          "Vuln Mgmt",
+          "cc",
+          "Vuln Mgmt",
+          "Mentorship"
         ],
         "logo_url": "images/logos/akamai.png",
-        "description" : "Led key initiatives such as API design and implementation, data migration, UI development, system transitions, API and process documentation, and on-boarding mentorship of new recruits, resulting in streamlined processes and increased operational efficiency.",
+        "description" : "Led key initiatives such as REST API design and implementation, data migration, UI development, system transitions, API and process documentation, and on-boarding mentorship of new recruits, resulting in streamlined processes and increased operational efficiency.",
         "highlights": [
           {
             "date": "2022",
@@ -195,27 +194,29 @@
           },
           {
             "date": "2021",
-            "description": "Mentored 3 new hires through personalized knowledge-transfer sessions, reducing onboarding time by 40%."
+            "description": "Mentored 3 new hires through personalized knowledge-transfer sessions and process documentation, reducing the Marketplace Engineering department's onboarding time by 40%."
           }
         ]
       },
       {
         "company": "Akamai Technologies",
         "title": "Software Engineer I",
-        "years": "07.2019 - 06.2021",
+        "years": "Jul '19 - Jun '21",
+        "location": "Bengaluru, KA, IN",
         "mainTech": [
           "Java",
           "TypeScript"
         ],
         "technologies": [
-          "HTML/CSS",
           "Spring Boot",
+          "Docker",
+          "HTML/CSS",
           "Angular",
           "OracleDB",
           "REST API"
         ],
         "logo_url": "images/logos/akamai.png",
-        "description" : "Developed and implemented scalable solutions for complex software systems, utilizing agile methodologies and collaborating with cross-functional teams to meet project objectives.",
+        "description" : "Developed and implemented scalable features for complex software systems, utilizing agile methodologies and collaborating with cross-functional teams to meet project objectives.",
         "highlights": [
           {
             "date": "2020",
@@ -226,7 +227,8 @@
       {
         "company": "Akamai Technologies",
         "title": "Software Intern",
-        "years": "01.2019 - 04.2019",
+        "years": "Jan '19 - Apr '19",
+        "location": "Bengaluru, KA, IN",
         "mainTech": [
           "Java",
           "OracleSQL"
@@ -235,7 +237,7 @@
           "HTML/CSS",
           "Spring Boot",
           "Angular",
-          "OracleDB",
+          "Oracle SQL Developer",
           "REST API"
         ],
         "logo_url" : "images/logos/akamai.png",
@@ -246,8 +248,8 @@
     "activities": [
       {
         "company": "Arizona State University",
-        "title": "CSE180 - Course Grader",
-        "years": "01.2024 - 04.2024",
+        "title": "Graduate Services Assistant - CSE180",
+        "years": "Jan '24 - May '24",
         "mainTech": [
           "HTML",
           "Microsoft Word",
@@ -264,7 +266,7 @@
       {
         "company": "Google Developer Student Club @Poly, ASU",
         "title": "Core Officer, Treasurer",
-        "years": "08.2023 - 01.2024",
+        "years": "Aug '23 - Jan '24",
         "mainTech": [
           "Leadership",
           "Event Management"
@@ -280,7 +282,7 @@
       {
         "company": "Cloud Computing & Big Data center, PES University",
         "title": "Engineering Research Intern",
-        "years": "06.2017 - 06.2019",
+        "years": "Jun '17 - Jun '19",
         "mainTech": [
           "Python",
           "Arduino"
@@ -291,7 +293,7 @@
           "Research",
           "Patent-awarded"
         ],
-        "logo_url": "images/logos/pesu.png"
+        "logo_url": "images/logos/ccbd.png"
       }
     ],
     "events": [

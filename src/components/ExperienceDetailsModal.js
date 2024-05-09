@@ -1,12 +1,30 @@
 import React, { Component } from "react";
-import { Modal } from "react-bootstrap";
+import { Modal, Container, Row, Col, Badge } from "react-bootstrap";
 
 class ExperienceDetailsModal extends Component {
   render() {
-    let title = "", company = "", years = "", description = "", highlights = [], logo_url="";
+    let title = "",
+      company = "",
+      years = "",
+      location = "",
+      description = "",
+      highlights = [],
+      logo_url = "",
+      mainTech = [],
+      technologies = [];
 
     if (this.props.data) {
-      ({ title, company, years, description, highlights, logo_url } = this.props.data);
+      ({
+        title,
+        company,
+        years,
+        location,
+        description,
+        highlights,
+        logo_url,
+        mainTech,
+        technologies,
+      } = this.props.data);
     }
 
     return (
@@ -17,35 +35,72 @@ class ExperienceDetailsModal extends Component {
         centered
         className="modal-inside"
       >
-        <span onClick={this.props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
-        </span>
-        <div className="col-md-12">
-        <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="experience-header">
-              <img src={logo_url} alt={company} className="company-logo" height="50" width="50"/>
-              <h3 className="experience-title">{title}</h3>
-              <h4 className="experience-company">{company}</h4>
-              <p className="experience-duration">{years}</p>
-            </div>
-            <div className="experience-description">
-              <p>{description}</p>
-            </div>
+        <Modal.Header closeButton style={{ borderBottom: "none", padding: "35px 30px 5px 30px"}}>
+          <Container fluid>
+            <Row>
+              <Col xs={2}>
+                <img
+                  src={logo_url}
+                  alt={company}
+                  className="company-logo rounded-circle"
+                  height="60"
+                  width="60"
+                />
+              </Col>
+              <Col xs={7}>
+                <h3 className="text-left">{title}</h3>
+                <h4 className="text-left">{company}</h4>
+              </Col>
+              <Col xs={3}>
+                <p className="text-right">{years}</p>
+                <p className="text-right">{location}</p>
+              </Col>
+            </Row>
+          </Container>
+        </Modal.Header>
+        <Modal.Body style={{ paddingBottom: "30px"}}>
+          <Container fluid>
+            <Row>
+              <Col>
+                <p className="modal-description">{description}</p>
+              </Col>
+            </Row>
             {highlights && highlights.length > 0 && (
-              <div className="experience-highlights">
-                <h5>Highlights:</h5>
-                <ul>
-                  {highlights.map((highlight, index) => (
-                    <li key={index}>
-                      <span className="highlight-date">{highlight.date}:</span>{" "}
-                      {highlight.description}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <Row>
+                <Col>
+                  <h5>Highlights</h5>
+                  <ul className="list-unstyled">
+                    {highlights.map((highlight, index) => (
+                      <li key={index} className="d-flex align-items-center">
+                        <Badge pill className="experience-badge me-2 mb-2">
+                          {highlight.date}
+                        </Badge>
+                        <span className="modal-description">{highlight.description}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </Col>
+              </Row>
             )}
-          </div>
-        </div>
+            <Row>
+              <Col>
+                <h5>Skills</h5>
+                <div className="tech-list">
+                  {mainTech && mainTech.map((tech, index) => (
+                    <Badge pill key={index} className="experience-badge mr-2 mb-2">
+                      {tech}
+                    </Badge>
+                  ))}
+                  {technologies && technologies.map((tech, index) => (
+                    <Badge pill key={index} className="experience-badge mr-2 mb-2">
+                      {tech}
+                    </Badge>
+                  ))}
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </Modal.Body>
       </Modal>
     );
   }

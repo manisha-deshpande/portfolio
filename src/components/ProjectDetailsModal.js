@@ -47,7 +47,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          <div className="col-md-9 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
