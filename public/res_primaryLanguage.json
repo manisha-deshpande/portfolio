@@ -135,7 +135,7 @@
         "gpa": "3.87",
         "gpaMax": "4.0",
         "description": "Advanced my expertise in software engineering with a focus on practical and theoretical aspects of the software development life cycle, culminating in a transformative educational experience that honed my technical, collaborative and problem-solving skills.",
-        "relevantCourses": ["Adv. Data Structures & Algorithms", "Intro Human Computer Interaction", "Software Requirements & Specifications", "Software Agility", "Software Verification, Validation & Testing", "Language & Programming Paradigms", "Data Science for SE"],
+        "relevantCourses": ["Adv. Data Structures & Algorithms", "Intro Human Computer Interaction", "Software Requirements & Specifications", "Software Agility", "Software Verification, Validation & Testing", "Programming Paradigms", "Software Capstone Project", "Data Science for SE"],
         "highlights": [
           {
             "date": "2024",

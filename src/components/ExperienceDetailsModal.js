@@ -38,7 +38,7 @@ class ExperienceDetailsModal extends Component {
         <Modal.Header closeButton style={{ borderBottom: "none", padding: "35px 30px 5px 30px"}}>
           <Container fluid>
             <Row>
-              <Col xs={2}>
+              <Col xs={12} sm={2}>
                 <img
                   src={logo_url}
                   alt={company}
@@ -47,11 +47,11 @@ class ExperienceDetailsModal extends Component {
                   width="60"
                 />
               </Col>
-              <Col xs={7}>
+              <Col xs={7} sm={7}>
                 <h3 className="text-left">{title}</h3>
                 <h4 className="text-left">{company}</h4>
               </Col>
-              <Col xs={3}>
+              <Col xs={5} sm={3}>
                 <p className="text-right">{years}</p>
                 <p className="text-right">{location}</p>
               </Col>
