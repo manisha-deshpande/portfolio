@@ -17,71 +17,139 @@
       "image": "myProfile.jpg"
     },
     "skills": {
-    "icons": {
-      "Backend": [
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "95"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "85"
-        },
-        {
-          "name": "Spring Boot",
-          "class": "devicon-spring-plain",
-          "level": "80"
-        },
-        {
-          "name": "MySQL",
-          "class": "devicon-mysql-plain",
-          "level": "75"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
-          "level": "70"
-        },
-        {
-          "name": "Docker",
-          "class": "devicon-docker-plain",
-          "level": "75"
-        }
-      ],
-      "Frontend": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "90"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "85"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original",
-          "level": "80"
-        }
-      ]
+      "icons": {
+        "Languages": [
+          {
+            "name": "Java",
+            "class": "devicon-java-plain",
+            "level": "95"
+          },
+          {
+            "name": "Python",
+            "class": "devicon-python-plain",
+            "level": "95"
+          },
+          {
+            "name": "C",
+            "class": "devicon-c-plain",
+            "level": "95"
+          },
+          {
+            "name": "Javascript",
+            "class": "devicon-javascript-plain",
+            "level": "95"
+          },
+          {
+            "name": "TypeScript",
+            "class": "devicon-typescript-plain",
+            "level": "95"
+          },
+          {
+            "name": "HTML",
+            "class": "devicon-html5-plain",
+            "level": "95"
+          },
+          {
+            "name": "CSS",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          },
+          {
+            "name": "SQL",
+            "class": "devicon-mysql-plain",
+            "level": "80"
+          }
+        ],
+        "Frameworks": [
+          {
+            "name": "Spring Boot",
+            "class": "devicon-spring-plain",
+            "level": "95"
+          },
+          {
+            "name": "Maven",
+            "class": "devicon-maven-plain",
+            "level": "95"
+          },
+          {
+            "name": "Docker",
+            "class": "devicon-docker-plain",
+            "level": "85"
+          },
+          {
+            "name": "Node.js",
+            "class": "devicon-nodejs-plain",
+            "level": "85"
+          },
+          {
+            "name": "Angular",
+            "class": "devicon-angularjs-plain",
+            "level": "90"
+          },
+          {
+            "name": "React",
+            "class": "devicon-react-original",
+            "level": "80"
+          },
+          {
+            "name": "SQL",
+            "class": "devicon-mysql-plain",
+            "level": "80"
+          },
+          {
+            "name": "JUnit",
+            "class": "devicon-junit-plain",
+            "level": "80"
+          }
+        ],
+        "Tools": [
+          {
+            "name": "Git",
+            "class": "devicon-git-plain",
+            "level": "90"
+          },
+          {
+            "name": "JIRA",
+            "class": "devicon-jira-plain",
+            "level": "85"
+          },
+          {
+            "name": "Confluence",
+            "class": "devicon-confluence-plain",
+            "level": "85"
+          },
+          {
+            "name": "SQL Developer",
+            "class": "devicon-oracle-plain",
+            "level": "80"
+          },
+          {
+            "name": "Agile (Scrum)",
+            "class": "fa fa-users",
+            "level": "85"
+          },
+          {
+            "name": "API Design",
+            "class": "devicon-openapi-plain",
+            "level": "80"
+          },
+          {
+            "name": "CI/CD",
+            "class": "devicon-jenkins-line",
+            "level": "80"
+          },
+          {
+            "name": "VulnerabilityFix",
+            "class": "devicon-splunk-original-wordmark",
+            "level": "80"
+          },
+          {
+            "name": "Test-Driven Dev (TDD)",
+            "class": "fa fa-light fa-check-double",
+            "level": "80"
+          }
+        ]
+      }
     }
-  }
+  
 }

@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "👋 Hi, I'm Manisha",
-      "description": "I've just wrapped up my Master's in Software Engineering at Arizona State University, building on my Computer Science roots from PES University. My journey through academia and three enriching years at Akamai Technologies has sharpened my knack for crafting innovative software solutions that enhance user experiences and streamline operations. I'm passionate about turning complex challenges into seamless solutions, making technology work smarter and lives easier. Let's make something amazing together! 💜",
+      "description": "I've just wrapped up my Master's in Software Engineering at Arizona State University, building on my Computer Science roots from PES University. My journey through academia and 3 enriching years at Akamai Technologies has sharpened my knack for crafting innovative software solutions that enhance user experiences and streamline operations. I'm passionate about turning complex challenges into seamless solutions, making technology work smarter and lives easier. Let's build something amazing together! 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -64,8 +64,16 @@
             "name": "Python"
           },
           {
+            "class": "devicon-prolog-plain",
+            "name": "Prolog"
+          },
+          {
             "class": "devicon-bash-plain",
             "name": "Bash Scripting"
+          },
+          {
+            "class": "devicon-powershell-plain",
+            "name": "Shell"
           }
         ]
       },
@@ -90,6 +98,14 @@
           {
             "class": "devicon-arduino-plain",
             "name": "Arduino"
+          },
+          {
+            "class": "fa fa-hospital",
+            "name": "Collaboration"
+          },
+          {
+            "class": "fa fa-book-medical",
+            "name": "Research"
           }
         ]
       }
@@ -101,15 +117,16 @@
         "location": "Tempe, AZ, USA",
         "years": "Aug '22 - May '24",
         "mainTech": [
-          "Java",
-          "TypeScript"
+          "GPA: 3.87/4.0"
         ],
         "technologies": [
-          "HTML/CSS",
-          "Spring Boot",
-          "Angular",
-          "OracleDB",
-          "REST API"
+          "Adv. Data Structures & Algo",
+          "Software Specs & Reqs",
+          "Agility",
+          "Verification",
+          "Validation",
+          "Processes", 
+          "HCI"
         ],
         "logo_url": "images/logos/asu.png",
         "gpa": "3.87",
@@ -137,15 +154,17 @@
         "location": "Bengaluru, KA, IN",
         "years": "Aug '15 - Jul '19",
         "mainTech": [
-          "Java",
-          "TypeScript"
+          "GPA: 9.03/10.0"
         ],
         "technologies": [
-          "HTML/CSS",
-          "Spring Boot",
-          "Angular",
-          "OracleDB",
-          "REST API"
+          "OOPS Concepts",
+          "Machine Learning",
+          "NLP",
+          "DBMS",
+          "Data Science - Specialization",
+          "Python",
+          "C",
+          "MPCA"
         ],
         "logo_url": "images/logos/pesu.png",
         "gpa": "9.03",
@@ -180,9 +199,9 @@
         ],
         "technologies": [
           "API Design",
-          "Vuln Mgmt",
-          "cc",
-          "Vuln Mgmt",
+          "Vulnerability Mgmt",
+          "Git",
+          "Agile",
           "Mentorship"
         ],
         "logo_url": "images/logos/akamai.png",
@@ -212,8 +231,9 @@
           "Docker",
           "HTML/CSS",
           "Angular",
+          "Node.Js",
           "OracleDB",
-          "REST API"
+          "REST API Development"
         ],
         "logo_url": "images/logos/akamai.png",
         "description" : "Developed and implemented scalable features for complex software systems, utilizing agile methodologies and collaborating with cross-functional teams to meet project objectives.",
@@ -234,11 +254,12 @@
           "OracleSQL"
         ],
         "technologies": [
-          "HTML/CSS",
           "Spring Boot",
+          "HTML/CSS",
           "Angular",
           "Oracle SQL Developer",
-          "REST API"
+          "Confluence",
+          "JIRA"
         ],
         "logo_url" : "images/logos/akamai.png",
         "description" : "Developed and documented features, APIs, SQL statements and user interfaces according to business specifications for product management and catalog systems.",
@@ -281,6 +302,7 @@
       },
       {
         "company": "Cloud Computing & Big Data center, PES University",
+        "org_url": "https://pesitcloud.wordpress.com/location/",
         "title": "Engineering Research Intern",
         "years": "Jun '17 - Jun '19",
         "mainTech": [
@@ -293,7 +315,7 @@
           "Research",
           "Patent-awarded"
         ],
-        "logo_url": "images/logos/ccbd.png"
+        "logo_url": "images/logos/pesu.png"
       }
     ],
     "events": [
@@ -311,23 +333,23 @@
         "url": "https://poly.engineering.asu.edu/innovation-showcase/software-engineering/",
         "technologies": [
           {
-            "class": "devicon-css3-plain",
+            "class": "fa fa-users",
             "name": "Agile (Scrum)"
           },
           {
-            "class": "devicon-css3-plain",
+            "class": "fa fa-code-merge",
             "name": "Github (Source Version control)"
           },
           {
-            "class": "devicon-html5-plain",
+            "class": "fa fa-user-check",
             "name": "Requirement Elicitation"
           },
           {
-            "class": "devicon-css3-plain",
+            "class": "fa fa-file-invoice",
             "name": "Documentation"
           },
           {
-            "class": "devicon-javascript-plain",
+            "class": "fa fa-laptop-code",
             "name": "App Development"
           }
         ]
@@ -335,7 +357,7 @@
       {
         "title": "ASU Open Door - GDSC Spring Tabling",
         "startDate": "Feb 15, 2024",
-        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "description": "Engaged with prospective ASU students & parents, discussing technology and our club, while also leading activities related to hacking the 'Dino Game', Scratch Programming, Web Design and interacting with Bard.",
         "images": [
           "images/portfolio/opendoor/p1.gif",
           "images/portfolio/opendoor/p2.jpeg",
@@ -344,31 +366,31 @@
         "url": "https://opendoor.asu.edu/polytechnic/exploring-tech-world-327",
         "technologies": [
           {
-            "class": "devicon-react-original",
+            "class": "fa fa-laptop-code",
             "name": "Scratch Coding"
           },
           {
-            "class": "devicon-express-original",
+            "class": "devicon-chrome-plain",
             "name": "Google Chrome"
           },
           {
-            "class": "devicon-html5-plain",
+            "class": "devicon-google-plain",
             "name": "Google Bard (Gemini)"
           },
           {
-            "class": "devicon-css3-plain",
+            "class": "fa fa-file-powerpoint",
             "name": "Presentation"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "Interaction"
+            "class": "fa fa-campground",
+            "name": "Event Setup"
           }
         ]
       },
       {
         "title": "Intro to Machine Learning - GDSC Workshop",
         "startDate": "Nov 21, 2023",
-        "description": "Developed a novel personalized game recommendation system integrating Discord and Steam APIs, utilizing user preferences and social connections to suggest multiplayer games for group play.",
+        "description": "Organized and promoted a beginner-friendly seminar on Machine Learning, featuring an introduction to TensorFlow and a practical coding session on handwriting recognition, hosted at Arizona State University - Mesa.",
         "images": [
           "images/portfolio/gdscworkshop/p1.jpg",
           "images/portfolio/gdscworkshop/p2.jpg",
@@ -379,24 +401,24 @@
         "url": "https://gdsc.community.dev/events/details/developer-student-clubs-arizona-state-university-the-polytechnic-school-mesa-az-presents-introduction-to-machine-learning-with-tensorflow/",
         "technologies": [
           {
-            "class": "devicon-react-original",
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-tensorflow-original",
             "name": "Tensorflow"
           },
           {
-            "class": "devicon-express-original",
+            "class": "devicon-jupyter-plain",
+            "name": "Jupyter Notebook"
+          },
+          {
+            "class": "fa fa-campground",
             "name": "Event Management"
           },
           {
-            "class": "devicon-html5-plain",
-            "name": "Workshop"
-          },
-          {
-            "class": "devicon-css3-plain",
+            "class": "fa fa-users-class",
             "name": "Collaboration"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "Python"
           }
         ]
       }
