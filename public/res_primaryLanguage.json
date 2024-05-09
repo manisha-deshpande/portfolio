@@ -1,7 +1,9 @@
 {
     "basic_info": {
       "description_header": "👋 Hi, I'm Manisha",
-      "description": "I've just wrapped up my Master's in Software Engineering at Arizona State University, building on my Computer Science roots from PES University. My journey through academia and 3 enriching years at Akamai Technologies has sharpened my knack for crafting innovative software solutions that enhance user experiences and streamline operations. I'm passionate about turning complex challenges into seamless solutions, making technology work smarter and lives easier. Let's build something amazing together! 💜",
+      "description": "🎓 I've just wrapped up my Master's in Software Engineering at Arizona State University, building on my Computer Science roots from PES University.",
+      "descriptionline2": "🖥️ My journey through academia and 3 enriching years at Akamai Technologies has sharpened my knack for crafting innovative software solutions that enhance user experiences and streamline operations.",
+      "descriptionline3": "💕 I'm passionate about turning complex challenges into seamless solutions, making technology work smarter and lives easier. Let's build something amazing together! 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -113,6 +115,7 @@
     "education": [
       {
         "company": "Arizona State University",
+        "org_url": "https://www.asu.edu/",
         "title": "Master of Science, Software Engineering",
         "location": "Tempe, AZ, USA",
         "years": "Aug '22 - May '24",
@@ -151,6 +154,7 @@
       {
         "company": "PES University",
         "title": "Bachelor of Technology, Computer Science & Engineering",
+        "org_url": "https://pes.edu/",
         "location": "Bengaluru, KA, IN",
         "years": "Aug '15 - Jul '19",
         "mainTech": [
@@ -190,6 +194,7 @@
     "experience": [
       {
         "company": "Akamai Technologies",
+        "org_url": "https://www.akamai.com/",
         "title": "Software Engineer II",
         "years": "Jul '21 - Jul '22",
         "location": "Bengaluru, KA, IN",
@@ -219,6 +224,7 @@
       },
       {
         "company": "Akamai Technologies",
+        "org_url": "https://www.akamai.com/",
         "title": "Software Engineer I",
         "years": "Jul '19 - Jun '21",
         "location": "Bengaluru, KA, IN",
@@ -246,6 +252,7 @@
       },
       {
         "company": "Akamai Technologies",
+        "org_url": "https://www.akamai.com/",
         "title": "Software Intern",
         "years": "Jan '19 - Apr '19",
         "location": "Bengaluru, KA, IN",
@@ -270,6 +277,7 @@
       {
         "company": "Arizona State University",
         "title": "Graduate Services Assistant - CSE180",
+        "org_url": "https://scai.engineering.asu.edu/",
         "years": "Jan '24 - May '24",
         "mainTech": [
           "HTML",
@@ -286,6 +294,7 @@
       },
       {
         "company": "Google Developer Student Club @Poly, ASU",
+        "org_url": "https://asu.campuslabs.com/engage/organization/asudscpoly",
         "title": "Core Officer, Treasurer",
         "years": "Aug '23 - Jan '24",
         "mainTech": [

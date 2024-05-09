@@ -53,8 +53,9 @@ class Education extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<img src={work.logo_url} alt="Company Logo" style={{ width: "100%", height: "100%" }} />}
+            icon={<a href={work.org_url} title="Click to visit org↗️" target="_blank"><img src={work.logo_url} alt="Company Logo" style={{ width: "100%", height: "100%" }} /></a>}
             key={i}
+            onTimelineElementClick={() => workDetailsModalShow(work)}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
               {mainTech}
@@ -62,9 +63,7 @@ class Education extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" , cursor: "pointer"}}
-
-              onClick={() => workDetailsModalShow(work)}
+              style={{ textAlign: "left" }}
             >
               {work.title}
             </h3>

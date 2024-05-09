@@ -37,7 +37,7 @@ class Activities extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<img src={work.logo_url} alt="Company Logo" style={{ width: "100%", height: "100%" }} />}
+            icon={<a href={work.org_url} title="Click to visit org↗️" target="_blank"><img src={work.logo_url} alt="Company Logo" style={{ width: "100%", height: "100%" }} /></a>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

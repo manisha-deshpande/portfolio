@@ -67,8 +67,8 @@ header {
 .skills-tile {
 	background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
-	width: 100px;
-	margin: 5px 0 5px 0;
+	width: 80px;
+	margin: 5px 3px 15px 3px;
 	border-radius: 8px;
 }
 
@@ -263,6 +263,24 @@ header h1 {
 	margin: 0 !important;
 }
 
+#resume .vertical-timeline-element--work {
+	transition: transform 0.3s ease;
+}
+  
+#resume .vertical-timeline-element--work:hover {
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+
+#education .vertical-timeline-element--work {
+	transition: transform 0.3s ease;
+}
+  
+#education .vertical-timeline-element--work:hover {
+	transform: translateY(-5px);
+	cursor: pointer;
+}
+ 
 @media only screen and (max-width: 1170px) {
 	.experience-icon {
 		font-size: 170%;

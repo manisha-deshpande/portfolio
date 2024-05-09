@@ -15,6 +15,8 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
+      var aboutPart2 = this.props.resumeBasicInfo.descriptionline2;
+      var aboutPart3 = this.props.resumeBasicInfo.descriptionline3;
     }
 
     return (
@@ -84,6 +86,12 @@ class About extends Component {
                     <br />
                     <p>
                       {about}
+                    </p>
+                    <p>
+                      {aboutPart2}
+                    </p>
+                    <p>
+                      {aboutPart3}
                     </p>
                     <br/>
                     <br/>

@@ -139,12 +139,12 @@
             "level": "80"
           },
           {
-            "name": "VulnerabilityFix",
+            "name": "Vuln. Fix",
             "class": "devicon-splunk-original-wordmark",
             "level": "80"
           },
           {
-            "name": "Test-Driven Dev (TDD)",
+            "name": "TDD (Test)",
             "class": "fa fa-light fa-check-double",
             "level": "80"
           }

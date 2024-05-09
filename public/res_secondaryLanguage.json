@@ -1,7 +1,9 @@
 {
   "basic_info": {
     "description_header": "👋 नमस्ते, मैं Manisha हूँ",
-    "description": "I've just wrapped up my Master's in सॉफ्टवेयर इंजीनियरिंग at Arizona State University, building on my कंप्यूटर विज्ञान from PES University. My सफ़र through academia and तीन समृद्ध साल at Akamai Technologies has sharpened my knack for crafting नवाचारी सॉफ़्टवेयर solutions that enhance user experiences and streamline operations. I'm भावुक about turning complex challenges into seamless solutions, making टेक्‍नोलॉजी more होशियार and lives और आसान. Let's build something ग़जब का together! 💜",
+    "description": "🎓 I've just wrapped up my Master's in सॉफ्टवेयर इंजीनियरिंग at Arizona State University, building on my कंप्यूटर विज्ञान from PES University.",
+    "descriptionline2": "🖥️ My सफ़र through academia and तीन समृद्ध साल at Akamai Technologies has sharpened my knack for crafting नवाचारी सॉफ़्टवेयर solutions that enhance user experiences and streamline operations.",
+    "descriptionline3": "💕 I'm भावुक about turning complex challenges into seamless solutions, making टेक्‍नोलॉजी more होशियार and lives और आसान. Let's build something ग़जब का together! 💜",
     "section_name": {
       "about": "मेरा विवरण",
       "projects": "परियोजनाओं",
@@ -113,6 +115,7 @@
   "education": [
     {
       "company": "एरिजोना State University",
+      "org_url": "https://www.asu.edu/",
       "title": "Master of Science, Software Engineering",
       "location": "Tempe, AZ, USA",
       "years": "Aug '22 - May '24",
@@ -150,6 +153,7 @@
     },
     {
       "company": "पी.ई.एस. University",
+      "org_url": "https://pes.edu/",
       "title": "Bachelor of Technology, Computer Science & Engineering",
       "location": "Bengaluru, KA, IN",
       "years": "Aug '15 - Jul '19",
@@ -190,6 +194,7 @@
   "experience": [
     {
       "company": "Akamai Technologies",
+      "org_url": "https://www.akamai.com/",
       "title": "सॉफ़्टवेयर Engineer II",
       "years": "Jul '21 - Jul '22",
       "location": "Bengaluru, KA, IN",
@@ -219,6 +224,7 @@
     },
     {
       "company": "Akamai Technologies",
+      "org_url": "https://www.akamai.com/",
       "title": "सॉफ़्टवेयर Engineer I",
       "years": "Jul '19 - Jun '21",
       "location": "Bengaluru, KA, IN",
@@ -246,6 +252,7 @@
     },
     {
       "company": "Akamai Technologies",
+      "org_url": "https://www.akamai.com/",
       "title": "सॉफ़्टवेयर Intern",
       "years": "Jan '19 - Apr '19",
       "location": "Bengaluru, KA, IN",
@@ -269,6 +276,7 @@
   "activities": [
     {
       "company": "Arizona State University",
+      "org_url": "https://scai.engineering.asu.edu/",
       "title": "Graduate सेवा सहायक - CSE180 ग्रेडर",
       "years": "Jan '24 - May '24",
       "mainTech": [
@@ -286,6 +294,7 @@
     },
     {
       "company": "गूगल Developer Student क्लब @Poly, ASU",
+      "org_url": "https://asu.campuslabs.com/engage/organization/asudscpoly",
       "title": "Core Officer, Treasurer",
       "years": "Aug '23 - Jan '24",
       "mainTech": [
